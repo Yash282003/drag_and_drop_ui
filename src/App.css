@@ -1,0 +1,40 @@
+.canvas-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.add-card-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
+  padding: 15px 30px;
+  background-color: rgb(222, 206, 206);
+  color: rgb(42, 29, 29);
+  border: 2 px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.add-card-button:hover {
+  background-color: #7db0e7;
+}
+
+.react-resizable {
+  overflow: hidden;
+}
+
+.react-resizable-handle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  right: 0;
+  background-color: #e72b32;
+  cursor: se-resize;
+}
+.react-flow__attribution {
+  display: none;
+}
